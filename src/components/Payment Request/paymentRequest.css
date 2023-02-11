@@ -1,0 +1,47 @@
+.columnDataRestaurant {
+    font-size: 1.42rem !important;
+  }
+  .paymentRequest .MuiDataGrid-cell {
+    justify-content: center !important;
+  }
+  .paymentRequest .MuiDataGrid-columnHeaderTitleContainer {
+    justify-content: center !important;
+  }
+  .paymentRequest {
+    margin-top: 11rem;
+  }
+  .buttons button {
+    padding: 0.3rem 0.9rem;
+  
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+  }
+  .enterRefIdField label {
+    width: 30%;
+    color: #383838;
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    /* caret-color: transparent; */
+  }
+  .enterRefIdField input {
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 1rem;
+    border: 0.5px solid #d7c7c7;
+  }
+  .newReservation{
+    margin-top: 4rem;
+  }
+  
+  @media (min-width: 2000px) {
+    .ColumnData {
+      font-size: 1.3rem !important;
+    }
+  }
+  

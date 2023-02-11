@@ -1,0 +1,25 @@
+stages: 
+  - deploy
+variables:
+     SSH_PRIVATE_KEY: $SSH_PRIVATE_KEY
+deploy-dev: 
+  before_script:
+    - "apk add --no-cache openssh"
+    - "mkdir -p ~/.ssh"
+    - "eval \"$(ssh-agent -s)\""
+    - "echo \"$SSH_PRIVATE_KEY\" | tr -d '\\r' | ssh-add -"
+    - "chmod 700 ~/.ssh"
+    - ssh-keyscan -H "$client" >> ~/.ssh/known_hosts
+  image: alpine
+  only: 
+    - development
+  script: 
+    - pwd
+    - ssh -o StrictHostKeyChecking=no root@"$client"
+    - ssh -o StrictHostKeyChecking=no root@"$client" set -f
+    - ssh -o StrictHostKeyChecking=no root@"$client" sudo rm -rf /root/admin-panel     
+    - ssh -o StrictHostKeyChecking=no root@"$client" "cd /root && sudo git clone https://gitlab+deploy-token-1697618:Q4nXABGSVHVCbdbvxgH2@gitlab.com/Codistan/rezzlist/admin-panel.git"
+    - ssh -o StrictHostKeyChecking=no root@"$client" "cd /root/admin-panel && sudo git checkout development"
+    - ssh -o StrictHostKeyChecking=no root@"$client" echo "Running npm"
+    - ssh -o StrictHostKeyChecking=no root@"$client" "cd /root/admin-panel && sudo npm install && sudo npm run build && pm2 restart admin || pm2 start  "serve -s build -l 3000" --name=admin"
+  stage: deploy

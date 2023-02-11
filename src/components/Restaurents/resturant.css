@@ -1,0 +1,34 @@
+.resturant .MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center;
+}
+
+.resturant .buttons button {
+  padding: 0.3rem 0.9rem;
+
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+.resturant .tableimg {
+  position: absolute;
+  right: 2.5rem;
+  top: 1rem;
+  z-index: 55555;
+}
+
+.resturant .MuiDataGrid-cell--withRenderer {
+  padding: 0.5rem 0 !important;
+}
+
+@media (min-width: 2000px) {
+  .ColumnDataLocation {
+    font-size: 1.3rem !important;
+  }
+  .columnDataResturant {
+    font-size: 1.42rem !important;
+  }
+  .columnDataCityName {
+    font-size: 1.15rem !important;
+  }
+}

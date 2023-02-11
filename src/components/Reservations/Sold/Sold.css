@@ -1,0 +1,27 @@
+.DateTime {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  color: #525252;
+  margin-top: 0.5rem;
+}
+.MuiDataGrid-cellContent {
+  font-size: 1rem;
+}
+.RowTopContent {
+  font-size: 1rem;
+}
+.sold .MuiDataGrid-root {
+  padding: 2.5rem 0;
+}
+.sold .MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center !important;
+}
+.sold .MuiDataGrid-cell {
+  justify-content: center !important;
+}
+.MuiTablePagination-selectLabel {
+  margin-bottom: 0 !important;
+}
+.MuiTablePagination-displayedRows {
+  margin-bottom: 0 !important;
+}

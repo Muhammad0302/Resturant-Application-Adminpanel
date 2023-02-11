@@ -1,0 +1,15 @@
+.users .MuiDataGrid-cell {
+  justify-content: center !important;
+}
+.users .MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center !important;
+}
+.users {
+  margin-top: 11rem;
+}
+.overlay a {
+  text-decoration: none;
+}
+.menuList li {
+  cursor: pointer;
+}

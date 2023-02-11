@@ -1,0 +1,89 @@
+.MuiDataGrid-columnHeadersInner {
+  background-color: #e95048 !important;
+}
+
+/* .MuiDataGrid-columnHeaderCheckbox {
+  display: none !important;
+  color: red !important;
+}  */
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+.MuiSvgIcon-root {
+  font-size: 1.2rem !important;
+}
+.MuiDataGrid-cellContent {
+  font-size: 1rem;
+}
+.available .MuiDataGrid-cell {
+  font-family: "Inter";
+}
+.columnHeader {
+  font-size: 1rem;
+  color: white;
+}
+.tablebtn:hover {
+  background: #f0eded;
+}
+.columnData {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.MuiDataGrid-cell {
+  outline: none !important;
+}
+.overlay button {
+  border: none;
+  padding: 0.4rem 1rem;
+  background: transparent;
+}
+.overlay {
+  background: #ffffff;
+
+  box-shadow: 0px 6.09937px 38.121px 7.62421px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 0.5rem 0;
+}
+.available .MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center !important;
+  color: white;
+}
+.available .MuiDataGrid-cell {
+  justify-content: center !important;
+}
+/* tr {
+  height: 20px !important;
+}
+
+tr td {
+  height: auto !important;
+} */
+/* [data-field="Price"] {
+  font-weight: bold;
+} */
+.MuiTablePagination-selectLabel {
+  margin-bottom: 0 !important;
+}
+.MuiTablePagination-displayedRows {
+  margin-bottom: 0 !important;
+}
+.available .MuiDataGrid-root {
+  padding: 2.5rem 0;
+}
+/* .MuiDataGrid-root:first-child {
+  height: 100px;
+} */
+/* .table > :not(caption) {
+  height: 200px !important;
+} */
+
+@media (min-width: 2000px) {
+  .columnHeader {
+    font-size: 1.3rem;
+    color: white;
+  }
+  .columnData,
+  .MuiDataGrid-cellContent {
+    font-size: 1.3rem;
+  }
+}

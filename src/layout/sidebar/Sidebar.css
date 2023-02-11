@@ -1,0 +1,135 @@
+.Sidebar {
+  background: #ffffff;
+  box-shadow: 10px 2px 48px rgba(2, 2, 2, 0.04);
+  font-family: "Poppins", sans-serif;
+  caret-color: transparent;
+  height: 100%;
+}
+.sidebarMenu a {
+  text-decoration: none;
+}
+.Sidebar a:hover {
+  color: #4a4a4a;
+}
+.sidebarWrapper {
+  padding: 2rem 0;
+  height: 100%;
+}
+
+.Sidebar .fullName {
+  width: 60%;
+  background: #fff7f7;
+  border-radius: 8px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.sidebarWrapper .menu1 {
+  text-transform: capitalize;
+
+  padding: 0.8rem 0;
+}
+.sidebarWrapper .menu1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+
+  /* identical to box height */
+  padding-left: 2.5rem;
+}
+.sidebarWrapper .subMenu {
+  margin-left: 3rem;
+  list-style: none;
+}
+.subMenu .active {
+  padding: 0.8rem 0;
+  text-transform: capitalize;
+  background: #e95048;
+}
+.notActive {
+  padding: 0.8rem 0;
+
+  text-transform: capitalize;
+}
+.subMenu a{
+  font-weight: 400;
+  font-size: 1rem;
+ padding-left: 1.5rem;
+}
+.notActive a {
+
+  color: #1d1d1d;
+  /* identical to box height */
+ 
+}
+.subMenu .active a {
+
+
+
+  color: #ffffff;
+}
+.border {
+  opacity: 0.4;
+  border: 1px solid #4a4a4a;
+}
+.sidebarMenu .city {
+  padding-left: 2.5rem !important;
+
+  padding: 0.8rem 0;
+}
+.sidebarMenu .city a {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+/* identical to box height */
+
+.sidebarMenu .listRestaurents {
+  padding-left: 2.5rem !important;
+  padding: 0.8rem 0;
+}
+
+.sidebarMenu .listRestaurents a {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+/* .sidebarMenu .listPaymentRequests {
+  padding-left: 2.5rem !important;
+  padding: 0.8rem 0;
+}
+.sidebarMenu .listPaymentRequests a {
+  font-weight: 500;
+  font-size: 1.25rem;
+} */
+
+.activeMenu {
+  background: linear-gradient(90deg, #e95048 0%, #eea657 100%);
+}
+.textWhite {
+  color: #fff;
+}
+.textDark {
+  color: #4a4a4a;
+}
+
+@media (max-width:1200px) {
+.sidebarWrapper .subMenu{
+  margin-left: 0;
+  }
+
+}
+@media(min-width:2000px) {
+  .sidebarWrapper .menu1 a {
+
+  font-size: 1.55rem;
+
+}
+.sidebarMenu .listRestaurents a,.sidebarMenu .city a, .sidebarMenu .listPaymentRequests a{
+    font-size: 1.55rem;
+
+}
+.logout{
+  font-size: 1.3rem;
+}
+  
+}

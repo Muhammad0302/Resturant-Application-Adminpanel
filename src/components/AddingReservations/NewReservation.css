@@ -1,0 +1,109 @@
+.newReservation .formWrapper {
+  width: 700px;
+  padding: 1.3rem 1rem;
+  margin: 1rem auto;
+  font-family: "Inter";
+  background: #ffffff;
+  box-shadow: 0px 3.00891px 22.5668px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+.newReservation .form {
+  padding: 0 2rem;
+}
+.newReservationField label {
+  width: 30%;
+  color: #383838;
+  font-size: 1rem;
+  font-weight: bold;
+  /* caret-color: transparent; */
+}
+.newReservation{
+  margin-top: 4rem;
+}
+
+.newReservationField input {
+  height: 50px;
+
+  border-radius: 10px;
+  outline: none;
+  padding: 0 1rem;
+  border: 0.5px solid #d7c7c7;
+}
+.newReservation select{
+      height: 50px;
+      border: 0.5px solid #d7c7c7;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      outline: none;
+}
+.autoGenerate {
+  background: #eea657;
+  border-radius: 7px;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  border: none;
+  color: #fff;
+}
+.formButtons .submit {
+  background: linear-gradient(94.36deg, #eea657 0%, #ea674b 90.55%), #797979;
+  padding: 0.6rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+
+  text-transform: capitalize;
+}
+.formButtons .reset {
+  background: #eea657;
+  text-transform: capitalize;
+  padding: 0.6rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.newReservation .MuiOutlinedInput-input {
+  border: none;
+}
+.newReservation .MuiOutlinedInput-root {
+  outline: none;
+  padding: 1.4rem 1rem;
+
+  height: 50px !important;
+
+  border-radius: 10px;
+}
+.newReservation 
+.newReservation
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+.newReservation .MuiInputLabel-formControl {
+  display: none;
+}
+.css-1in441m {
+  float: right !important;
+}
+.css-hdw1oc {
+  float: right !important;
+}
+.newReservation .MuiOutlinedInput-notchedOutline {
+  /* border-color: #d7c7c7;
+  border: 0.5px solid #d7c7c7; */
+  outline: 0.5px solid #d7c7c7;
+  border: none;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+
+@media (max-width: 850px) {
+  .newReservation .formWrapper {
+    width: 650px;
+  }
+}

@@ -1,0 +1,118 @@
+.container {
+  margin-top: 13px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ced4da !important;
+  outline: 0;
+  box-shadow:none !important;
+}
+
+.card-advertiser {
+  -webkit-box-shadow: 0px 0px 20px -4px #fd7e14;
+  -moz-box-shadow: 0px 0px 20px -4px #fd7e14;
+  box-shadow: 0px 0px 12px -4px #fd7e14 !important;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 985px;
+  padding-bottom: 34px;
+}
+.card-body-to {
+  padding: 30px;
+}
+#customclassforcontainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.required-star {
+  color: #c8175d;
+}
+.adv-card .form-outline .form-control ~ .form-notch .form-notch-leading {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.adv-card .form-outline .form-control ~ .form-notch .form-notch-trailing {
+  border-radius: 0px 10px 10px 0px !important;
+}
+.input-group > .form-control:focus,
+.input-group > .form-select:focus {
+  z-index: -1;
+}
+
+.input-group > .form-control {
+  padding-top: 0.27rem;
+  padding-bottom: 0.27rem;
+  transition: all 0.2s linear;
+  padding-right: 25px;
+  margin-right: 0px;
+  border: none;
+}
+.profile-card .row {
+  margin-top: 30px;
+}
+.errorText {
+  color: #e30022;
+  
+}
+
+.submitRequest:hover{
+  background-color: #664020 !important;
+  border: 1px solid #664020 !important;
+}
+
+
+@media screen and (max-width: 1366px) {
+  .errorText {
+    color: #e30022;
+    font-size: 0.8em;
+    margin-top: 1%;
+    width: 249px;
+    font-weight: 600;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 600px) {
+  .errorText {
+    color: #e30022;
+    font-size: 0.7em;
+    margin-top: 1%;
+    width: 249px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .submitRequest {
+    margin-top: 20px;
+    background-color: #fd7e14;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #fd7e14;
+    color: white;
+  }
+  .adrequest {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) {
+  .submitRequest {
+    float: right;
+    margin-top: 20px;
+    background-color: #fd7e14;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #fd7e14;
+    color: white;
+    margin-right: 60px;
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,130 @@
+.ResetPass {
+  padding: 2rem 0;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -170px;
+}
+.resetWrapper {
+  width: 370px;
+
+  margin: 0 auto;
+}
+.ResetPass h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.lockIcon {
+  text-align: center;
+
+  height: 110px;
+  margin-bottom: 3rem;
+}
+.lockIcon img {
+  width: 140px;
+  object-fit: contain;
+}
+.ResetPassbyEmailWrapper {
+  margin: 1rem 0;
+}
+.ResetPassbyEmailWrapper .info {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+  font-family: "Inter";
+  width: 80%;
+}
+.ResetPassbyEmailWrapper .email {
+  margin: 3rem 0;
+}
+.ResetPassbyEmailWrapper .send {
+ padding: 0.7rem 0.9rem;
+  border: none;
+    width: 190px;
+  background: linear-gradient(94.36deg, #ea9235 0%, #c83d1e 90.55%),
+    linear-gradient(
+      180deg,
+      #797979 0%,
+      #797979 46.88%,
+      rgba(121, 121, 121, 0) 100%
+    );
+  color: white;
+  border-radius: 26.3953px;
+}
+.ResetPassbyEmailWrapper .send:hover {
+  background: linear-gradient(94.36deg, #ec993f 0%, #e75534 90.55%), #797979;
+}
+.otpFields input {
+  width: 20px;
+  height: 22px;
+  color: gray;
+  text-align: center;
+  border: none;
+  background-color: #ffeeed;
+  outline: none;
+}
+.resendCODE a {
+  color: red;
+}
+.eachValue {
+  width: 30px;
+  border-bottom: 1.54286px solid #e95048;
+  text-align: center;
+}
+
+.MuiOutlinedInput-input {
+  height: 18px !important;
+}
+
+@media (max-width: 1300px) {
+  .ResetPassbyEmailWrapper {
+    margin: 1rem 0;
+  }
+  .ResetPassbyEmailWrapper .info {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .lockIcon img {
+    width: 110px;
+  }
+}
+@media (max-height: 800px) {
+  .ResetPassbyEmailWrapper .info {
+    margin-bottom: 1.1rem !important ;
+    margin-top: 1rem !important;
+    font-family: "Inter";
+    width: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .lockIcon img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 750px) {
+  .resetWrapper {
+    width: 45%;
+  }
+}
+@media(min-width:2000px){
+.ResetPassbyEmailWrapper .send {
+  padding: 0.9rem 1.4rem;
+ 
+
+width: 210px;
+  font-size: 1.2rem;
+
+  }
+  .ResetPass h1 {
+
+  font-size: 1.8rem;
+
+}
+}

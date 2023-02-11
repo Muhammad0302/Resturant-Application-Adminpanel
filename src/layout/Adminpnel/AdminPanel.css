@@ -1,0 +1,64 @@
+.sidebar {
+  width: 22%;
+  position: relative;
+  height: 100vh;
+}
+.main {
+  width: 100%;
+  /* overflow: hidden; */
+  height: 100%;
+}
+.mainContent {
+  width: 98%;
+  position: relative;
+}
+.menuIcon {
+  position: absolute;
+  top: 0;
+  left: 3rem;
+}
+.closeIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: grey;
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .showSidebar {
+    display: block;
+    position: absolute;
+    z-index: 44444;
+    width: 30%;
+  }
+
+  .removeSidebar {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .main {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .menuIcon {
+    display: block;
+  }
+  .closeIcon {
+    display: block;
+  }
+  .screenOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
